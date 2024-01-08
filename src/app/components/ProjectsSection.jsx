@@ -38,8 +38,8 @@ const projectsData = [
     description: "This website is made using Next.js and Tailwind CSS.",
     image: "/images/projects/port.png",
     tag: ["All"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Samarpan1122/Porfolio",
+    previewUrl: "samarpan-portfolio.netlify.app",
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ const projectsData = [
     description: "Morse code keyer with raspberry pi pico which can be used to send morse code over internet.",
     image: "/images/projects/morse.jpg",
     tag: ["All"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Samarpan1122/morse_code-keyer-with-pi-pico",
     previewUrl: "/",
   },
   {
@@ -56,8 +56,8 @@ const projectsData = [
     description: "Weather Station with raspberry pi and sensors which can be accessed from anywhere.",
     image: "/images/projects/weather.jpg",
     tag: ["All"],
-    gitUrl: "",
-    previewUrl: "",
+    gitUrl: "https://github.com/Samarpan1122/weather-station/",
+    previewUrl: "/",
   },
   {
     id: 7,
@@ -65,7 +65,7 @@ const projectsData = [
     description: "Mini Portable Game Console with raspberry pi pico with audio,can run Java script games.",
     image: "/images/projects/sprig.jpg",
     tag: ["All"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Samarpan1122/sprig",
     previewUrl: "/",
   },
   {
@@ -74,7 +74,7 @@ const projectsData = [
     description: "Remote controll  car made with raspberry pi which can be controlled from phone.",
     image: "/images/projects/car.jpg",
     tag: ["All"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Samarpan1122/Wifi-car-with-pi-pico/",
     previewUrl: "/",
   },
 ];
