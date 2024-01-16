@@ -49,7 +49,7 @@ const HeroSection = () => {
             </Link>
             <a href="https://firebasestorage.googleapis.com/v0/b/codeday-32a37.appspot.com/o/samu-dox.pdf?alt=media&token=52f3039a-52d9-447c-846e-f029c98a1fa0" className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
+                View CV
               </span>
             </a>
           </div>
