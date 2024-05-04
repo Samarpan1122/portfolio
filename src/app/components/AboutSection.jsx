@@ -43,6 +43,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Google Code</li>
+        <li>PCBWay</li>
         <li>IIT Delhi</li>
         <li>Hackclub</li>
         <li>DPS Society</li>
@@ -67,6 +68,9 @@ const TAB_DATA = [
     id: "prizes",
     content: (
       <ul className="list-disc pl-2">
+        <li>
+          Listed as Project of the week and rewarded a Raspberry Pi by PCBWay
+        </li>
         <li>Fourth prize in Interschool Hackathon</li>
         <li>From Google code to finish in top 10</li>
         <li>From HPE to finish in top 100</li>
@@ -77,7 +81,10 @@ const TAB_DATA = [
           PCB dev kit with Raspberry pi(worth $250) for my original game from
           Hackclub
         </li>
-        <li>$1000 from Hackclub for my project for ticket to San Francisco</li>
+        <li>
+          $1000+living expenses from Hackclub for ticket to San Francisco
+          showcase my project
+        </li>
       </ul>
     ),
   },
