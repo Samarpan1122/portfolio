@@ -12,6 +12,9 @@ const TAB_DATA = [
         <li>Node.js</li>
         <li>JavaScript</li>
         <li>React</li>
+        <li>Next.js</li>
+        <li>React Native</li>
+        <li>Flutter</li>
         <li>Tailwind CSS</li>
         <li>HTML</li>
         <li>CSS</li>
@@ -70,7 +73,10 @@ const TAB_DATA = [
         <li>Fourth prize in All India Hackathon at IIT Dehi</li>
         <li>$200 from Hackclub for best PCB design</li>
         <li>$100 for Raspberry Pi project from Hackclub</li>
-        <li>PCB dev kit with Raspberry pi(worth $250) for my original game from Hackclub</li>
+        <li>
+          PCB dev kit with Raspberry pi(worth $250) for my original game from
+          Hackclub
+        </li>
         <li>$1000 from Hackclub for my project for ticket to San Francisco</li>
       </ul>
     ),
@@ -90,16 +96,22 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.jpg" width={500} height={500} alt="My Original Art" />
+        <Image
+          src="/images/about-image.jpg"
+          width={500}
+          height={500}
+          alt="My Original Art"
+        />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack developer with a passion for creating
-            interactive and responsive applications and interesting Hardware tech. I have experience
-            working with several Languages, even particiated in several
-            hackathons,worked with several organizations. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.I also like Sketching,Playing Games.
+            I am a full stack developer with a passion for creating interactive
+            and responsive applications and interesting Hardware tech. I have
+            experience working with several Languages, even particiated in
+            several hackathons,worked with several organizations. I am a quick
+            learner and I am always looking to expand my knowledge and skill
+            set. I am a team player and I am excited to work with others to
+            create amazing applications.I also like Sketching,Playing Games.
           </p>
           <div className="flex flex-row justify-start mt-8 overflow-x-auto">
             <TabButton

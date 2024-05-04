@@ -8,9 +8,10 @@ const projectsData = [
   {
     id: 1,
     title: "Chat4fun",
-    description: "Chatting Webapp that Block out inappropriate content automatically before sending.",
+    description:
+      "Chatting Webapp that Block out inappropriate content automatically before sending.",
     image: "/images/projects/chat4fun.png",
-    tag: ["All"],
+    tag: ["All", "Programming"],
     gitUrl: "https://github.com/Samarpan1122/Chat4fun-Hackathon",
     previewUrl: "https://www.chat4fun.me/",
   },
@@ -19,17 +20,20 @@ const projectsData = [
     title: "Website-Builder-Python-Openai",
     description: "Website builder made using openai api",
     image: "/images/projects/python.png",
-    tag: ["All"],
-    gitUrl: "https://github.com/Samarpan1122/Website-Builder-Python-Openai/tree/main",
+    tag: ["All", "Programming"],
+    gitUrl:
+      "https://github.com/Samarpan1122/Website-Builder-Python-Openai/tree/main",
     previewUrl: "/",
   },
   {
     id: 3,
     title: "Website-Translator-with-GoogleTranslate",
-    description: "Uses older version of google translate without any api and without showing the banner. You can change the language by editing translate.js.",
+    description:
+      "Uses older version of google translate without any api and without showing the banner. You can change the language by editing translate.js.",
     image: "/images/projects/trans.png",
-    tag: ["All"],
-    gitUrl: "https://github.com/Samarpan1122/Website-Translator-with-GoogleTranslate?tab=readme-ov-file",
+    tag: ["All", "Programming"],
+    gitUrl:
+      "https://github.com/Samarpan1122/Website-Translator-with-GoogleTranslate?tab=readme-ov-file",
     previewUrl: "https://host-theta.vercel.app/",
   },
   {
@@ -37,43 +41,47 @@ const projectsData = [
     title: "Portfolio Website",
     description: "This website is made using Next.js and Tailwind CSS.",
     image: "/images/projects/port.png",
-    tag: ["All"],
+    tag: ["All", "Programming"],
     gitUrl: "https://github.com/Samarpan1122/Porfolio",
     previewUrl: "samarpan-portfolio.netlify.app",
   },
   {
     id: 5,
     title: "Morse Code Keyer with raspberry pi",
-    description: "Morse code keyer with raspberry pi pico which can be used to send morse code over internet.",
+    description:
+      "Morse code keyer with raspberry pi pico which can be used to send morse code over internet.",
     image: "/images/projects/morse.jpg",
-    tag: ["All"],
+    tag: ["All", "Hardware"],
     gitUrl: "https://github.com/Samarpan1122/morse_code-keyer-with-pi-pico",
     previewUrl: "/",
   },
   {
     id: 6,
     title: "Weather Station with raspberry pi",
-    description: "Weather Station with raspberry pi and sensors which can be accessed from anywhere.",
+    description:
+      "Weather Station with raspberry pi and sensors which can be accessed from anywhere.",
     image: "/images/projects/weather.jpg",
-    tag: ["All"],
+    tag: ["All", "Hardware"],
     gitUrl: "https://github.com/Samarpan1122/weather-station/",
     previewUrl: "/",
   },
   {
     id: 7,
     title: "Mini Portable Game Console with raspberry pi",
-    description: "Mini Portable Game Console with raspberry pi pico with audio,can run Java script games.",
+    description:
+      "Mini Portable Game Console with raspberry pi pico with audio,can run Java script games.",
     image: "/images/projects/sprig.jpg",
-    tag: ["All"],
+    tag: ["All", "Hardware"],
     gitUrl: "https://github.com/Samarpan1122/sprig",
     previewUrl: "/",
   },
   {
     id: 8,
     title: "Controll over wifi car with raspberry pi",
-    description: "Remote controll  car made with raspberry pi which can be controlled from phone.",
+    description:
+      "Remote controll  car made with raspberry pi which can be controlled from phone.",
     image: "/images/projects/car.jpg",
-    tag: ["All"],
+    tag: ["All", "Hardware"],
     gitUrl: "https://github.com/Samarpan1122/Wifi-car-with-pi-pico/",
     previewUrl: "/",
   },
@@ -107,6 +115,16 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="All"
           isSelected={tag === "All"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Programming"
+          isSelected={tag === "Programming"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Hardware"
+          isSelected={tag === "Hardware"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
